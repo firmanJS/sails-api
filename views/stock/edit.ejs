@@ -1,0 +1,7 @@
+<form action="/stock/update/<%= stock.id %>" method="post">
+  <h2>edit Customer</h2>
+  <input type="text" name="symbol" value="<%= stock.symbol %>"><br><br>
+  <input type="text" name="number_of_shares" value="<%= stock.number_of_shares %>"><br><br>
+
+  <input type="submit" value="Edit Stock">
+</form>

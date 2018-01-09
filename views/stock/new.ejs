@@ -1,0 +1,8 @@
+<form action="/stock/create" method="post">
+  <h2>Create Stock for Customer <%= customer.name %></h2>
+  <input type="hidden" name="owner" value="<%= customer.id %>"><br><br>
+
+  <input type="text" placeholder="Symbol" name="symbol"><br><br>
+  <input type="text" placeholder="Number of Shares" name="number_of_shares"><br><br>
+  <input type="submit" value="Add Stock">
+</form>
